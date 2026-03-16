@@ -1,0 +1,15 @@
+# Nmap 7.98 scan initiated Mon Mar 16 14:32:50 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -Pn -p 5000,7000,49152 -oN /mnt/redteam-lab/evidence/before/mac/nmap_targeted.txt 10.0.0.200
+Nmap scan report for Camilos-MBP.hsd1.il.comcast.net (10.0.0.200)
+Host is up (0.066s latency).
+
+PORT      STATE SERVICE VERSION
+5000/tcp  open  rtsp    AirTunes rtspd 775.3.1
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+7000/tcp  open  rtsp    AirTunes rtspd 775.3.1
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+|_irc-info: Unable to open connection
+49152/tcp open  unknown
+MAC Address: 80:A9:97:37:CA:6A (Apple)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 16 14:35:44 2026 -- 1 IP address (1 host up) scanned in 173.87 seconds

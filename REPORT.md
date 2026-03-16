@@ -65,3 +65,16 @@
 - HTTP:
 - SMB:
 - Database (if any):
+
+## Focused Enumeration — Mac (10.0.0.200)
+### Evidence
+- `evidence/before/mac/nmap_top500.txt`
+- `evidence/before/mac/nmap_targeted.txt`
+- `evidence/before/mac/whatweb_http.txt` (if run)
+- `evidence/before/mac/whatweb_https.txt` (if run)
+
+### Key service notes (fill in)
+- SSH / Remote Login:
+- Screen Sharing / VNC:
+- File sharing (SMB/AFP):
+- Any unexpected services:
