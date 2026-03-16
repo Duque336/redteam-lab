@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Mon Mar 16 13:20:47 2026 as: /usr/lib/nmap/nmap --privileged -sV -Pn --reason --top-ports 50 -oN /mnt/redteam-lab/evidence/before/mac/nmap_top50.txt 10.0.0.200
+Nmap scan report for Camilos-MBP.hsd1.il.comcast.net (10.0.0.200)
+Host is up, received arp-response (0.031s latency).
+Not shown: 49 closed tcp ports (reset)
+PORT      STATE SERVICE REASON         VERSION
+49152/tcp open  unknown syn-ack ttl 64
+MAC Address: 80:A9:97:37:CA:6A (Apple)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 16 13:23:34 2026 -- 1 IP address (1 host up) scanned in 167.26 seconds
