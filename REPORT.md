@@ -54,3 +54,14 @@
 - Run focused scans on only open ports (-p list) with `-sC -sV` (safe default scripts)
 - Optional: web fingerprinting if HTTP(S) is open (WhatWeb)
 - Start “after” baseline once any hardening is applied (for Mac) or once lab changes are made
+
+## Focused Enumeration — Metasploitable
+### Targeted scan evidence
+- `evidence/before/metasploitable/nmap_targeted.txt`
+
+### Key service notes (fill in)
+- FTP:
+- SSH:
+- HTTP:
+- SMB:
+- Database (if any):
